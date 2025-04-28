@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="public/Furia_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>FURIA Personality Quiz</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="public/Furia_logo.png" alt="FURIA Logo" class="logo" onclick="goToHome()">
+        </header>
+
+        <!-- Home Page -->
+        <div id="homePage" class="page active">
+            <div class="content">
+                <div class="icon"><img src="public/Furia_logo.png" alt="FURIA logo" class="inside-logo"></div>
+                <h1>Descubra seu Espírito FURIOSO</h1>
+                <p>Aqui, cada mente é uma arma e cada coração é combustível.
+                    Descubra seu lado FURIOSO e viva o sentimento!</p>
+                <button onclick="showPage('registerPage')" class="btn-primary">Começar Teste</button>
+            </div>
+        </div>
+
+        <!-- Register Page -->
+        <div id="registerPage" class="page">
+            <div class="card">
+                <div class="icon"> <i class="fa-regular fa-flag"></i> </div>
+                <h2>Cadastre-se para começar</h2>
+                <form id="registerForm" onsubmit="handleRegister(event)">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Idade</label>
+                        <input type="number" id="age" required min="1">
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Cidade</label>
+                        <input type="text" id="city" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <button type="submit" class="btn-primary">Continuar para o Quiz</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quizPage" class="page">
+            <div class="quiz-container">
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+                <div id="questionNumber" class="question-number"></div>
+                <div class="card">
+                    <h2 id="questionText"></h2>
+                    <div id="options" class="options"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Page -->
+        <div id="resultsPage" class="page">
+            <div class="results-container">
+                <div class="card">
+                    <h1 id="resultTitle"></h1>
+                    <p id="resultDescription"></p>
+                </div>
+                
+                <div class="card">
+                    <h2>Seu esporte FÚRIA é:</h2>
+                    <div id="sportResult"></div>
+                </div>
+                
+                <div class="card">
+                    <h2>Produto pra você:</h2>
+                    <div class="product-recommendation">
+                        <div id="productImage"></div>
+                        <div class="product-info">
+                            <h3 id="productName"></h3>
+                            <p id="productDescription"></p>
+                            <a href="#" target="_blank" class="btn-primary" id="verNaLoja">Ver na Loja</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Você é FÚRIA!</h2>
+                    <div class="action-buttons">
+                        <a href="https://www.furia.gg/produtos" target="_blank" class="btn-primary">Ver Produtos</a>
+                        <button onclick="shareResult()" class="btn-secondary">Compartilhar</button>
+                        <button onclick="restartQuiz()" class="btn-secondary">Voltar ao Início</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/quiz-data.js"></script>
+    <script src="data/script.js"></script>
+    
+</body>
+
+</html>
