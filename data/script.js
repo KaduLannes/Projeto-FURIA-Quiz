@@ -30,6 +30,10 @@ function handleRegister(event) {
     };
 
     localStorage.setItem('userProfile', JSON.stringify(formData));
+
+    const userProfile = JSON.parse(localStorage.getItem('userProfile'));
+    console.log(userProfile);
+
     startQuiz();
 }
 
