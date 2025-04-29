@@ -39,7 +39,7 @@ npm install
 
 3. Abra o arquivo index.html diretamente em seu navegador
 
-## 📱 Perfis FURIA
+## Perfis FURIA
 
 ### Estratégico
 - Focado em planejamento e estratégia
