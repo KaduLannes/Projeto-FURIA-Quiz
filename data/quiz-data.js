@@ -60,7 +60,7 @@ const profileResults = {
     'Estratégico': {
         title: 'FURIOSO IGL',
         description: 'Você é a mente da matilha. Cada movimento seu é um passo certeiro rumo à vitória.',
-        sport: 'League of Legends',
+        sport: 'CS2',
         sportDescription: 'Um jogo onde estratégia é a chave para o GG!',
         product: {
             name: 'Moletom Oversized FURIA Future is Black Sankofa Preto',
@@ -82,7 +82,7 @@ const profileResults = {
         }
     },
     'Criativo': {
-        title: 'FURIOSO CRIATIVO',
+        title: 'FURIOSO CREATOR',
         description: 'Criar é seu combustível. Você transforma cada experiência em arte pura!',
         sport: 'Valorant',
         sportDescription: 'Um universo para mentes que ousam e inovam.',
@@ -94,7 +94,7 @@ const profileResults = {
         }
     },
     'Resiliente': {
-        title: 'FURIOSO RESILIENTE',
+        title: 'FURIOSO CLUTCHER',
         description: 'Resiliência é seu segundo nome. Você aguenta firme até o último round!',
         sport: 'Rainbow Six Siege (R6)',
         sportDescription: 'Resistência e estratégia no mais alto nível.',
@@ -106,7 +106,7 @@ const profileResults = {
         }
     },
     'Zen': {
-        title: 'FURIOSO ZEN',
+        title: 'FURIOSO MOBILE',
         description: 'Você joga no seu tempo, no seu estilo. Sabe que viver o game é tão importante quanto ganhar.',
         sport: 'Free Fire',
         sportDescription: 'Rápido, leve e feito para quem curte cada momento!',
