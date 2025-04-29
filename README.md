@@ -2,6 +2,7 @@
 
 Um quiz interativo que revela seu perfil FURIOSO baseado em suas preferências e estilo de jogo.
 
+![image](https://github.com/user-attachments/assets/3c12e73d-273d-4be6-8ee3-6aa78197aa2e)
 
 
 ## Sobre o Projeto
@@ -71,10 +72,10 @@ npm install
 ```
 Projeto-FURIA-Quiz/
 ├── data/
-│   ├── quiz-data.js
-│   └── script.js
+│   ├── quiz-data.js                  # Conteúdo das perguntas e do resultado do projeto
+│   └── script.js                     # Lógica e funcionamento do projeto
 │
-├── public/
+├── public/                           # Imagens usadas no projeto
 │   ├── Furia_logo.png
 │   ├── FURIOSO-CRIATIVO.png
 │   ├── FURIOSO-FANATICO.png
@@ -83,9 +84,9 @@ Projeto-FURIA-Quiz/
 │   └── FURIOSO-ZEN.png
 │
 ├── styles/
-│   └── style.css
+│   └── style.css                     # Estilo do projeto
 │
-└── index.html
+└── index.html                        # Página principal
 ```
 
 ## Licença
