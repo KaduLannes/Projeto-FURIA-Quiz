@@ -141,9 +141,6 @@ function shareResult() {
                 <a href="https://twitter.com/intent/tweet?text=${text}&url=${url}" target="_blank" class="share-button twitter">
                     Twitter
                 </a>
-                <button onclick="copyToInstagram()" class="share-button instagram">
-                    Instagram
-                </button>
             </div>
             <button onclick="closeShareModal()" class="close-modal">Fechar</button>
         </div>
