@@ -133,6 +133,10 @@ header {
     line-height: 1.4;
 }
 
+input[type="date"]::-webkit-datetime-edit {
+  color: transparent;
+}
+
 /* Results Styles */
 .results-container {
     max-width: 900px;
