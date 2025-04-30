@@ -244,11 +244,6 @@ header {
     background-color: black;
 }
 
-.share-button.instagram {
-    background: var(--instagram);
-    background-color: red;
-}
-
 .close-modal {
     background: rgba(255, 255, 255, 0.1);
     color: var(--light);
