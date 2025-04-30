@@ -24,7 +24,7 @@ function handleRegister(event) {
     event.preventDefault();
     const formData = {
         name: document.getElementById('name').value,
-        age: document.getElementById('age').value,
+        birthdate: document.getElementById('birthdate').value,
         city: document.getElementById('city').value,
         email: document.getElementById('email').value
     };
