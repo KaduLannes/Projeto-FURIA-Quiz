@@ -36,11 +36,11 @@ const quizQuestions = [
         id: 4,
         question: 'Se pudesse escolher um produto da FURIA agora, seria:',
         options: [
-            { id: 'A', text: 'Moletom Oversized FURIA Future is Black Sankofa Preto', profile: 'Estratégico' },
-            { id: 'B', text: 'Camiseta FURIA Adidas Preta', profile: 'Fanático' },
-            { id: 'C', text: 'Camiseta Oversized FURIA x ZOR Woodhorse Marrom', profile: 'Criativo' },
-            { id: 'D', text: 'Jaqueta My Hero Academia x FURIA Izuku Midorya Verde', profile: 'Resiliente' },
-            { id: 'E', text: 'Jaqueta College My Hero Academia x FURIA Azul', profile: 'Zen' }
+            { id: 'A', text: 'Moletom oversized preto, minimalista e imponente', profile: 'Estratégico' },
+            { id: 'B', text: 'Camiseta esportiva preta com o escudo da Fúria estampado', profile: 'Fanático' },
+            { id: 'C', text: 'Camiseta oversized com estampa artística exclusiva', profile: 'Criativo' },
+            { id: 'D', text: 'Jaqueta leve com visual inspirado em heróis de anime', profile: 'Resiliente' },
+            { id: 'E', text: 'Jaqueta college azul com caimento confortável e visual descolado', profile: 'Zen' }
         ]
     },
     {
